@@ -1,12 +1,52 @@
-# Default ignored files
+# =========================
+# IntelliJ IDEA / JetBrains
+# =========================
+.idea/
+*.iml
+*.iws
 /shelf/
-/.idea/workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+out/
+gen/
 
-/.idea/
+# =========================
+# Fichiers Systèmes (macOS / Windows)
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# =========================
+# Code & Compilation (Bonus TP)
+# =========================
+# Java
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Python (pour le script de génération de données)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node.js / Front-end (si petite appli web)
+node_modules/
+dist/
+.npm/
+
+# =========================
+# Bases de données & Logs
+# =========================
+*.log
+*.sqlite
+*.db
